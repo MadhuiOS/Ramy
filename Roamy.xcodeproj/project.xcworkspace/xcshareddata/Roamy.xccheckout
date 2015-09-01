@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13EE01DF-AF75-4377-9AB0-8296A4C77FC2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Roamy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>28143EFBF48EA198BF0755C54A0A803AF833134C</key>
+		<string>https://github.com/MadhuiOS/Ramy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Roamy.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>28143EFBF48EA198BF0755C54A0A803AF833134C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MadhuiOS/Ramy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>28143EFBF48EA198BF0755C54A0A803AF833134C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>28143EFBF48EA198BF0755C54A0A803AF833134C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVN%20Copy%20Roamy</string>
+		</dict>
+	</array>
+</dict>
+</plist>
