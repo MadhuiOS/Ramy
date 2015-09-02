@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--My Bookings View Controller-->
         <scene sceneID="Uuq-sT-IZf">
             <objects>
-                <viewController id="zug-XY-Hd3" sceneMemberID="viewController">
+                <viewController id="zug-XY-Hd3" customClass="MyBookingsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nJd-Bv-rXa"/>
                         <viewControllerLayoutGuide type="bottom" id="OU4-7B-NUC"/>
@@ -18,16 +18,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="scC-IG-jrc"/>
+                    <tabBarItem key="tabBarItem" title="" image="about.png" id="scC-IG-jrc">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YvP-Op-Xiu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1025" y="1001"/>
+            <point key="canvasLocation" x="-111" y="65"/>
         </scene>
-        <!--Item 1-->
+        <!--More View View Controller-->
         <scene sceneID="dGQ-kQ-K9n">
             <objects>
-                <viewController id="9kp-T6-FF2" sceneMemberID="viewController">
+                <viewController id="9kp-T6-FF2" customClass="MoreViewViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cdE-cR-dVE"/>
                         <viewControllerLayoutGuide type="bottom" id="Yz4-N1-DUC"/>
@@ -37,11 +39,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="IqZ-6m-Dca"/>
+                    <tabBarItem key="tabBarItem" title="" image="about.png" id="IqZ-6m-Dca"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9A-G9-Ysc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1838" y="338"/>
+            <point key="canvasLocation" x="1126" y="98"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bUE-wU-sHO">
@@ -63,12 +65,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WP0-di-c1m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="281"/>
+            <point key="canvasLocation" x="438" y="-1623"/>
         </scene>
-        <!--Item-->
+        <!--Wish List View Controller-->
         <scene sceneID="dGd-8o-CKK">
             <objects>
-                <viewController id="q0B-96-1Hh" sceneMemberID="viewController">
+                <viewController id="q0B-96-1Hh" customClass="WishListViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1d8-op-GRI"/>
                         <viewControllerLayoutGuide type="bottom" id="JQQ-3e-L2L"/>
@@ -78,16 +80,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="q9h-CA-4YY"/>
+                    <tabBarItem key="tabBarItem" title="" image="about.png" id="q9h-CA-4YY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C70-nT-hT6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="713" y="521"/>
+            <point key="canvasLocation" x="470" y="98"/>
         </scene>
-        <!--Item-->
+        <!--Roamy View Controller-->
         <scene sceneID="OFa-0s-Cbx">
             <objects>
-                <viewController id="1IJ-ur-Z8g" sceneMemberID="viewController">
+                <viewController id="1IJ-ur-Z8g" customClass="RoamyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z4S-jw-WSG"/>
                         <viewControllerLayoutGuide type="bottom" id="oNZ-mE-KyL"/>
@@ -97,17 +99,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="PVW-Is-Pri"/>
+                    <tabBarItem key="tabBarItem" title="" image="about.png" id="PVW-Is-Pri"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jj8-ds-ILB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="494" y="1034"/>
+            <point key="canvasLocation" x="-666" y="98"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="ZPc-Ze-gzH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Eoh-9Q-Wj2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="atw-qA-qGI"/>
+                    <tabBarItem key="tabBarItem" title="" image="about.png" id="atw-qA-qGI"/>
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="an6-FI-83S">
@@ -121,7 +123,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M3u-TD-7R7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-319" y="362"/>
+            <point key="canvasLocation" x="-631" y="-1614"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about.png" width="50" height="50"/>
+    </resources>
 </document>

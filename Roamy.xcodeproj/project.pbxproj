@@ -14,6 +14,14 @@
 		D7114A581B9621CA00DA68D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7114A571B9621CA00DA68D3 /* Images.xcassets */; };
 		D7114A5B1B9621CA00DA68D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7114A591B9621CA00DA68D3 /* LaunchScreen.xib */; };
 		D7114A671B9621CA00DA68D3 /* RoamyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7114A661B9621CA00DA68D3 /* RoamyTests.m */; };
+		E5A11BB81B9767E700B349BB /* bookings.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A11BB51B9767E700B349BB /* bookings.png */; };
+		E5A11BB91B9767E700B349BB /* roomy.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A11BB61B9767E700B349BB /* roomy.png */; };
+		E5A11BBA1B9767E700B349BB /* wishlist.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A11BB71B9767E700B349BB /* wishlist.png */; };
+		E5A11BBC1B97696400B349BB /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A11BBB1B97696400B349BB /* about.png */; };
+		E5A11BBF1B976CE900B349BB /* RoamyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A11BBE1B976CE900B349BB /* RoamyViewController.m */; };
+		E5A11BC21B976D3A00B349BB /* MyBookingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A11BC11B976D3A00B349BB /* MyBookingsViewController.m */; };
+		E5A11BC51B976D4C00B349BB /* WishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A11BC41B976D4C00B349BB /* WishListViewController.m */; };
+		E5A11BC81B976D5F00B349BB /* MoreViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A11BC71B976D5F00B349BB /* MoreViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,18 @@
 		D7114A601B9621CA00DA68D3 /* RoamyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoamyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7114A651B9621CA00DA68D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7114A661B9621CA00DA68D3 /* RoamyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoamyTests.m; sourceTree = "<group>"; };
+		E5A11BB51B9767E700B349BB /* bookings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookings.png; sourceTree = "<group>"; };
+		E5A11BB61B9767E700B349BB /* roomy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roomy.png; sourceTree = "<group>"; };
+		E5A11BB71B9767E700B349BB /* wishlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wishlist.png; sourceTree = "<group>"; };
+		E5A11BBB1B97696400B349BB /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		E5A11BBD1B976CE900B349BB /* RoamyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoamyViewController.h; sourceTree = "<group>"; };
+		E5A11BBE1B976CE900B349BB /* RoamyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoamyViewController.m; sourceTree = "<group>"; };
+		E5A11BC01B976D3A00B349BB /* MyBookingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBookingsViewController.h; sourceTree = "<group>"; };
+		E5A11BC11B976D3A00B349BB /* MyBookingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBookingsViewController.m; sourceTree = "<group>"; };
+		E5A11BC31B976D4C00B349BB /* WishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishListViewController.h; sourceTree = "<group>"; };
+		E5A11BC41B976D4C00B349BB /* WishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishListViewController.m; sourceTree = "<group>"; };
+		E5A11BC61B976D5F00B349BB /* MoreViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewViewController.h; sourceTree = "<group>"; };
+		E5A11BC71B976D5F00B349BB /* MoreViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +106,15 @@
 				D7114A511B9621CA00DA68D3 /* ViewController.h */,
 				D7114A521B9621CA00DA68D3 /* ViewController.m */,
 				D7114A541B9621CA00DA68D3 /* Main.storyboard */,
+				E5A11BBD1B976CE900B349BB /* RoamyViewController.h */,
+				E5A11BBE1B976CE900B349BB /* RoamyViewController.m */,
+				E5A11BC01B976D3A00B349BB /* MyBookingsViewController.h */,
+				E5A11BC11B976D3A00B349BB /* MyBookingsViewController.m */,
+				E5A11BC31B976D4C00B349BB /* WishListViewController.h */,
+				E5A11BC41B976D4C00B349BB /* WishListViewController.m */,
+				E5A11BC61B976D5F00B349BB /* MoreViewViewController.h */,
+				E5A11BC71B976D5F00B349BB /* MoreViewViewController.m */,
+				E5A11BB41B9767D700B349BB /* Images resources */,
 				D7114A571B9621CA00DA68D3 /* Images.xcassets */,
 				D7114A591B9621CA00DA68D3 /* LaunchScreen.xib */,
 				D7114A4A1B9621CA00DA68D3 /* Supporting Files */,
@@ -117,6 +146,17 @@
 				D7114A651B9621CA00DA68D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5A11BB41B9767D700B349BB /* Images resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5A11BB51B9767E700B349BB /* bookings.png */,
+				E5A11BB61B9767E700B349BB /* roomy.png */,
+				E5A11BBB1B97696400B349BB /* about.png */,
+				E5A11BB71B9767E700B349BB /* wishlist.png */,
+			);
+			path = "Images resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +239,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A11BB91B9767E700B349BB /* roomy.png in Resources */,
 				D7114A561B9621CA00DA68D3 /* Main.storyboard in Resources */,
+				E5A11BBA1B9767E700B349BB /* wishlist.png in Resources */,
 				D7114A5B1B9621CA00DA68D3 /* LaunchScreen.xib in Resources */,
 				D7114A581B9621CA00DA68D3 /* Images.xcassets in Resources */,
+				E5A11BB81B9767E700B349BB /* bookings.png in Resources */,
+				E5A11BBC1B97696400B349BB /* about.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7114A531B9621CA00DA68D3 /* ViewController.m in Sources */,
+				E5A11BC51B976D4C00B349BB /* WishListViewController.m in Sources */,
 				D7114A501B9621CA00DA68D3 /* AppDelegate.m in Sources */,
+				E5A11BC81B976D5F00B349BB /* MoreViewViewController.m in Sources */,
 				D7114A4D1B9621CA00DA68D3 /* main.m in Sources */,
+				E5A11BC21B976D3A00B349BB /* MyBookingsViewController.m in Sources */,
+				E5A11BBF1B976CE900B349BB /* RoamyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
